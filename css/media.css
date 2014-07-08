@@ -1,0 +1,139 @@
+@media only screen and (max-width: 800px) {
+      * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+  }
+  body {
+      height: 100%;
+      /*font-family: 'Helvetica', sans-serif;*/
+      font-size: 22px;
+      text-align: center;
+    }
+
+  html {
+    height: 100%;
+  }
+  .pic, .pic2, .pic3, .pic4, .pic5, .pic6 {
+      display: block;
+      width: 100%;
+      height: auto%;
+    }
+  nav {
+    display: none;
+  }
+  .header {
+        background-color: rgba(255,255,255,.7);
+        width: 100%;
+        padding: .25em;
+        line-height: 1em;
+        position: fixed;
+        text-align: center; 
+        font-size: 25px;
+        z-index: 1000;
+
+      }
+
+    /*pics*/
+  .pic2 {
+    top: 75%;
+    height: auto  }
+    /*backgrounds*/
+    section {
+      height: auto;
+      max-width: 100%;
+      background-size: cover; 
+      background-attachment: fixed;
+      background-position: center;
+      margin: 0;
+      padding: 0px;
+    }
+
+    .russell, .forest, .everyone, .flight, .icecream, .balloons {
+      background-image: none;
+      background-color: blue;
+      }
+
+      /*text*/
+
+    div {
+    border-radius: 0px;
+    line-height: 1em;
+    /*padding: 2em;*/
+    display: block;
+    position: static;
+    vertical-align: middle;
+    text-indent: 20px;
+    }
+
+  .adventure {
+    /*height: 20%;*/
+    width: 100%;
+   /* left: 0%;
+    top: 45%;*/
+    background-color:rgba(255, 0, 0, 1);  
+    border-radius: 0px;
+    color: white;
+    border: 3px dashed white;
+    padding: 1.5em;
+
+  }
+
+  .before {
+    /*height: 40%;*/
+    width: 100%;
+   /* left: 0%;
+    top: 150%;*/
+    /*background-color:rgba(255, 255, 255, .7); */
+    background-color: green;
+    padding-top: 1.5em;
+    padding: .5em;
+    border: 3px solid white;
+    color: white;
+    }
+
+  .dug {
+    width: 100%;
+    /*left: 0%;
+    top: 150%;
+*/   background-color:#D2691E;
+    border: 3px dashed white;
+    color: white;
+  }
+
+
+  .flying {
+    width: 100%;
+    /*left: 0%;
+    top: 200%;
+*/    background-color:rgba(255, 255, 255, 1); 
+    border: 4px solid rgba(139,69,19,.5); 
+    color: rgba(139,69,19, 1); 
+      }
+
+  .senior {
+    width: 100%;
+    /*left: 0%;
+    top: 225%;*/
+    background-color: purple;
+    border: 3px dotted white;
+    color: white;
+    padding:1em;
+  }
+
+    .explore {
+    width: 100%;
+    height: auto;
+    background-color:#00008b;
+    border-radius: 0px;
+    font-size: 24px;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: white;
+     }
+
+
+
+}

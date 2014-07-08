@@ -54,7 +54,7 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: center;
   text-decoration: none;
 }
 body {
@@ -67,6 +67,9 @@ body {
 html {
   height: 100%;
 }
+.pic, .pic2, .pic3, .pic4, .pic5, .pic6 {
+  display: none;
+}
   .header {
         background-color: rgba(255,255,255,.75);
         width: 100%;
@@ -75,32 +78,31 @@ html {
         position: fixed;
         text-align: center; 
         font-size: 30px;
+        z-index: 1000;
 
       }
 
   /* unvisited link */
         a:link {
             color: #000000;
-            text-decoration: none; 
+            opacity: .7;
         }
 
         /* visited link */
         a:visited {
             color: #333333;
-            text-decoration: none; 
+            opacity: .75;
         }
 
         /* mouse over link */
         a:hover {
             color: red;
-            text-decoration: none; 
-        }
+            opacity: 1        }
 
         /* selected link */
         a:active {
             color: #000000;
-            text-decoration: none; 
-        }
+            opacity: 1;        }
 
 
 
@@ -108,9 +110,11 @@ html {
 /*backgrounds*/
 section {
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   background-size: cover; 
   background-attachment: fixed;
+  background-position: center;
+
 }
 
 .russell {
@@ -142,7 +146,7 @@ section {
   div {
   border-radius: 100px;
   line-height: 1.5em;
-  padding: 1.5em;
+  /*padding: 1.5em;*/
   display: inline-block;
   position: absolute;
   vertical-align: middle;
@@ -152,24 +156,26 @@ section {
 
 .adventure {
   height: 20%;
-  width: 50%;
-  left: 25%;
+  width: 70%;
+  left: 15%;
   top: 75%;
   background-color:rgba(255,0,0,.75);  
-  border-radius: 50%;
   color: white;
   border: 3px solid white;
+  padding: 2%;
 }
 
 .before {
   height: 80%;
-  width: 25%;
-  left: 70%;
+  width: 35%;
+  left: 60%;
   top: 114%;
   background-color:rgba(255,255,255,.75);  
   padding-top: 2.5em;
+  padding: 1em;
   border: 3px solid green;
   color: green;
+  vertical-align: middle;
   }
 
 .dug {
@@ -178,14 +184,16 @@ section {
   top: 215%;
   background-color:rgba(255,255,255,.7);  
   border: 3px dashed orange;
+  padding: 1em;
   color: #D2691E;
 }
 
 
 .flying {
-  width: 50%;
-  left: 25%;
+  width: 80%;
+  left: 10%;
   top: 315%;
+  padding: 1em;
   background-color:rgba(139,69,19,.5);  
   border: 3px solid white;
   color: white;
@@ -205,12 +213,15 @@ section {
   width: 300px;
   height: 300px;
   left: 60%;
-  top: 540%;
+  top: 525%;
   background-color:rgba(255,255,255,.5);  
   border-radius: 50%;
   font-size: 24px;
+   padding: 1em;
   padding-top: 3.5em;
-  color: #00008b;
+   color: #00008b;
 }
+
+
 
 
